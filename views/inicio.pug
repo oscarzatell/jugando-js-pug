@@ -4,11 +4,14 @@
         head
             title Titulo de la pagina 
         body
+            each color in colores
+                span=color
             div
                 h1  Hola este es un h1
                 h2  Esto es un subtitulo
                 div 
-                    h3 Hola desde el h3
+                    h3=hola
+                    
             section
                 div
                     ul
